@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html>
-    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atikah's Portofolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <!-- <div style="background-image: url(assets/images.jpg); border: 1px solid black; height: 32px; width: 32px;"></div> -->
+      <img class="logo" src="assets/images.png" alt="revou-logo">
+      <nav>
+        <button type="button" id="home-btn">Home</button>
+        <button>Our Package</button>
+        <button>Call Us</button>
+      </nav>
+    </header>
+    <hr/>
+
+    <article class="content-container">
+        <header>
+            <h1>WELCOME BACK <span id="nama">Traveler </span></h1>
+            <h3>Your happiness is our happiness</h3>
+        </header>
+
+        <section class="core-content">
+            <div class="core-item">
+                <div class="banner-item" style="background-image: url(assets/1.jpg);"></div>
+                <div class="banner-item" style="background-image: url(assets/2.jpg);"></div>
+                <div class="banner-item" style="background-image: url(assets/3.jpg);"></div>
+            </div>
+            <div class="core-item item-right">
+                <header>
+                    <h2>Contact Us</h2>
+                    <p> Sales akan menghubungi anda 1 x 24 jam setelah data kami terima</p>
+                </header>
+                
+                <section class="item-form">
+                  <label for="">Your name :</label>
+                  <input type="text" placeholder="full name" />
+                  <br>
+                  <label for="">Email address :</label>
+                  <input type="text" placeholder="example@mail.com" />
+                  <br>
+                  <label for=""> What are you interest in? </label>
+                  <select name="" id="interest">
+                    <option value="">USA</option>
+                    <option value="">ASIA</option>
+                    <option value="">EUROPE</option>
+                  </select>
+                  <br>
+                  <button style="height: 32px; width: 50%; margin-left: 8px; border: 1px solid darkgrey;
+                  border-radius: 4px;">Submit</button>
+                </section>
+            </div>
+        </section>
+        <section class="our-package-content">
+          <h1>Our Package</h1>
+          </section>
+    </article>
+    <script src="js/script.js"></script>
+  </body>
 </html>
